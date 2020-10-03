@@ -1,0 +1,62 @@
+/*
+General Colors Used:
+Primary Color (Orange): #FA6400
+Secondary Color (Dark Gray): #5F5F5F
+Secondary Color (Light Gray): #BCBCBC
+Tertiary Color (Black): #000000
+Tertiary Color (White): #FFFFFF
+
+Colors for Refab page:
+Primary Color (Teal): #14A2B2
+Primary Color (Orange): #F25D28
+Secondary Color (Dark Teal): #3B7F8B
+Tertiary Color (Light Blue): #E6F2F4
+
+Colors for Fluenci page:
+Primary Color (Blue): #14A2B2
+Primary Color (Purple): #E2E390
+Secondary Color (Seafoam): #EFFAFF
+Secondary Color (Coral): #447A86
+Tertiary Color (Yellow): #FB8058
+
+Colors for Toast page:
+Primary Color (Orange): #FB8058
+Primary Color (Dark Green): #447A86
+Secondary Color (Bright Green): #E2E390
+Secondary Color (Magenta): #D82459
+Tertiary Color (Lght Blue): #EFFAFF
+
+Colors for Nonprofit page:
+TBD...
+/*
+
+body {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #5F5F5F;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
