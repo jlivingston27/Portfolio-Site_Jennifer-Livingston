@@ -46,6 +46,9 @@ a:hover,
 a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
+.heading1:hover {
+    text-decoration: none; /* No underlining */
+}
 .text-link {
   color: #FA6400;
 }
