@@ -31,6 +31,25 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+h5 {
+  font-size: 1.00em;
+  font-weight: 300;
+}
+img {
+  width: 100%;
+}
+a {
+  color: #5F5F5F;
+  text-decoration: none; /* No underlining */
+}
+a:hover,
+a:focus {
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+.text-link {
+  color: #FA6400;
+}
+
 
 /*
 General Colors Used:
