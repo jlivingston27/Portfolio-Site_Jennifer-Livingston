@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
@@ -49,12 +53,39 @@ a:focus {
 .heading1:hover {
     text-decoration: none; /* No underlining */
 }
+.icon:hover {
+  text-decoration: none;
+}
+.icon {
+  padding: 10px;
+}
 .text-link {
   color: #FA6400;
 }
 .text-link-fluenci {
   color: #0087E2
 }
+
+/* Layout styling */
+header {
+  margin-top: 15px;/* 15px top */
+}
+.container {
+  padding: 0 15px;/* 15px left and right */
+  max-width: 1200px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+.social {
+    text-align:center;
+    display: inline-block;
+    width: 100%;
+  }
+.copyright {
+  text-align: center;
+}
+
 
 /*
 General Colors Used:
