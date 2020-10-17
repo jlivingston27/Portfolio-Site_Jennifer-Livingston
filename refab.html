@@ -49,9 +49,9 @@
       <div class="block2">
         <nav>
           <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="resume.html">Resume</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="index.html">Work</a></li>
           </ul>
         </nav>
       </div><!-- close block2 -->
@@ -70,24 +70,24 @@
         <!--close row -->
         <div class="row">
           <!-- open row with two columms for project prototypes -->
-          <div>
+          <div class="col-md-6">
             <!-- open first column -->
             <a href="https://invis.io/4ZX7ZF883NF" class="text-link" target="_blank">
               <picture>
                 <source srcset="img/refab/Refab_Prototype.001_600.jpeg" media="(max-width:767px)">
                 <img src="img/refab/Refab_Prototype.001_1200.jpeg" alt="Mobile Prototype">
               </picture>
-              <h3>View Mobile Prototype</h3>
+              <span class="refab-h3-orange"><h3>View Mobile Prototype</h3></span>
             </a>
           </div><!-- close first column -->
-          <div>
-            <!-- open secon column -->
+          <div class="col-md-6">
+            <!-- open second column -->
             <a href="https://invis.io/TYXBLQTS5EF" class="text-link" target="_blank">
               <picture>
                 <source srcset="img/refab/Refab_Prototype.002_600.jpeg" media="(max-width:767px)">
                 <img src="img/refab/Refab_Prototype.002_1200.jpeg" alt="Desktop Prototype">
               </picture>
-              <h3>View Desktop Prototype</h3>
+            <span class="refab-h3-orange"><h3>View Desktop Prototype</h3></span>
             </a>
           </div><!-- close second column -->
         </div><!-- close row with two columns -->
@@ -101,7 +101,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with three columns -->
-          <div>
+          <div class="col-md-4">
             <!-- open first column -->
             <h4>Research</h4>
             <ul>
@@ -112,7 +112,7 @@
             </ul>
           </div>
           <!--close first column -->
-          <div>
+          <div class="col-md-4">
             <!-- open second column -->
             <h4>Design</h4>
             <ul>
@@ -123,7 +123,7 @@
             </ul>
           </div>
           <!--close second column -->
-          <div>
+          <div class="col-md-4">
             <!-- open third column -->
             <h4>Testing</h4>
             <ul>
@@ -132,25 +132,49 @@
             </ul>
           </div>
           <!--close third column -->
-          <h4>Tools used: Lucid Chart, Optimal Sort, Usability Hub, Sketch, Invision</h4>
         </div><!-- close row with three columns -->
+        <div><!-- open row -->
+          <h4>Tools used: Lucid Chart, Optimal Sort, Usability Hub, Sketch, Invision</h4>
+        </div><!-- close row -->
         <div id="competitive-analysis" class="row-refab">
           <!-- open row, Competitive Analysis Section -->
-          <h1>Competitve Analysis</h1>
+          <h1>Competitive Analysis</h1>
           <h3>We reviewed our competitors to get a better idea of what’s out there and understand how Refab compares.</h3>
         </div><!-- close row -->
+        <div class="row"><!-- open row with two columns -->
+          <div class="col-md-6-c"><!-- open first column -->
+            <h2>Patch</h2>
+          </div><!-- close first column -->
+          <div class="col-md-6-c"><!-- open first column -->
+            <h2>Handy</h2>
+          </div><!-- close first column -->
+          </div><!-- close row with two columns -->
+        </div>
         <div class="row">
           <!-- open row with four columns -->
-          <div>
+          <div class="col-md-2">
             <!-- open first column -->
             <picture>
               <img src="img/refab/Competitve Analysis_Patch logo_600.png" alt="Patch logo">
             </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-4">
             <!-- open second column -->
-            <h3>Patch</h3>
             <p>Patch brands itself as “the #1 home maintenance and repair app that uses video chat to instantly connect homeowners with expert handymen.”</p>
+          </div><!-- close second column -->
+          <div class="col-md-2">
+            <!-- open third column -->
+            <picture>
+              <img src="img/refab/Competitve AnalysisHandy logo_600.jpg" alt="Handy logo">
+            </picture>
+          </div><!-- close third column -->
+          <div class="col-md-4">
+            <!-- open fourth column -->
+            <p>Handy brands itself as “the easiest way to book top-rated home cleaners and handymen.”</p>
+          </div><!-- close fourth column -->
+        </div><!-- close row with four columns -->
+        <div class="row"><!-- open row with two columns -->
+          <div class="col-md-6"><!-- open first column -->
             <ul>
               <li>Usability: simplicity of the overall design makes Patch visually appealing and easy to use.</li>
               <li>Layout: minimal design, including only the information needed</li>
@@ -158,18 +182,8 @@
               <li>Compatibility: iOS and Android, no desktop app</li>
               <li>Calls to Action: after signing up, users are prompted to register for subscription</li>
             </ul>
-          </div><!-- close second column -->
-
-          <div>
-            <!-- open third column -->
-            <picture>
-              <img src="img/refab/Competitve AnalysisHandy logo_600.jpg" alt="Handy logo">
-            </picture>
-          </div><!-- close third column -->
-          <div>
-            <!-- open fourth column -->
-            <h3>Handy</h3>
-            <p>Handy brands itself as “the easiest way to book top-rated home cleaners and handymen.”</p>
+          </div><!-- close first column -->
+          <div class="col-md-6"><!-- open second column -->
             <ul>
               <li>Usability: mobile navigation is a little confusing, with redundant links</li>
               <li>Layout: screens are typically minimal and easy to understand</li>
@@ -177,8 +191,8 @@
               <li>Compatibility: iOS, Android and web</li>
               <li>Calls to Action: mobile app lacks a large, clear CTA to sign up</li>
             </ul>
-          </div><!-- close fourth column -->
-        </div><!-- close row with four columns -->
+          </div><!-- close second column -->
+        </div><!-- close row with two columns -->
         <div id="user-research" class="row-refab">
           <!-- open row, User Research Section -->
           <h1>User Research & Analysis</h1>
@@ -187,7 +201,7 @@
         <div class="row">
           <!-- open row with three columns -->
           <p>We conducted 22 surveys and 3 in-person interviews to to gather data. We used affinity mapping to analyze the information we gathered. We wanted to gain insight about three key points:</p>
-          <div>
+          <div class="col-md-4">
             <!-- open first column -->
             <p>1. Users’ preferences for DIY vs. hiring someone for home improvement and repair projects.</p>
             <picture>
@@ -195,7 +209,7 @@
               <img src="img/refab/User-Research.001_1200.jpeg" alt="User Research">
             </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-4">
             <!-- open second column -->
             <p>2. Resources users currently use for DIY home projects and how those resources could be better.</p>
             <picture>
@@ -203,7 +217,7 @@
               <img src="img/refab/User-Research.002_1200.jpeg" alt="User Research">
             </picture>
           </div><!-- close second column -->
-          <div>
+          <div class="col-md-4">
             <!-- open third column -->
             <p>3. User’s willingness to use online tools to supplement their skills for DIY home projects.</p>
             <picture>
@@ -226,7 +240,7 @@
         </div><!-- close row -->
         <div class="row">
           <!--open row with two columns -->
-          <div>
+          <div class="col-md-6-r">
             <!--open first column -->
             <picture>
               <source srcset="img/refab/User-Persona.002_600.jpeg" media="(max-width:767px)">
@@ -234,7 +248,7 @@
             </picture>
           </div>
           <!--close first column -->
-          <div>
+          <div class="col-md-6-l">
             <!--open second column -->
             <picture>
               <source srcset="img/refab/User-Persona.003_600.jpeg" media="(max-width:767px)">
@@ -252,7 +266,7 @@
         </div><!-- close row -->
         <div class="row">
           <!--open row with two columns -->
-          <div>
+          <div class="col-md-6-r">
             <!--open first column -->
             <picture>
               <source srcset="img/refab/User-Journey.002_600.jpeg" media="(max-width:767px)">
@@ -260,7 +274,7 @@
             </picture>
           </div>
           <!--close first column -->
-          <div>
+          <div class="col-md-6-l">
             <!--open second column -->
             <picture>
               <source srcset="img/refab/User-Journey.003_600.jpeg" media="(max-width:767px)">
@@ -289,7 +303,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6">
             <!-- open first column -->
             <ul>
               <li>6 out of 6 users think ‘My Account/Profile’ should include ‘Account Settings’ and ‘Payment Methods’</li>
@@ -301,7 +315,7 @@
               <img src="img/refab/Card-Sort.002_1200.jpeg" alt="Card Sort">
             </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6">
             <!-- open second column -->
             <ul>
               <li>‘Message History’, ‘Saved Messages’, ‘Saved Contacts’ frequently grouped</li>
@@ -321,38 +335,38 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6">
             <!-- open first column -->
             <h3>Lo-fidelity wireframes: mobile & desktop</h3>
-            <h4>Tools used: paper & pencil, keynote</h4>
             <picture>
               <source srcset="img/refab/Wireframes.001_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.001_1200.jpeg" alt="Lo-fidelity wireframes">
             </picture>
             <h3>Mid-fidelity wireframes: mobile & desktop</h3>
-            <h4>Tools used: Sketch, keynote</h4>
             <picture>
               <source srcset="img/refab/Wireframes.003_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.003_1200.jpeg" alt="Mid-fidelity wireframes">
             </picture>
             <h3>Hi fidelity mockups: mobile & desktop</h3>
-            <h4>Tools used: Sketch, Invision</h4>
             <picture>
               <source srcset="img/refab/Wireframes.005_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.005_1200.jpeg" alt="Hi fidelity mockups">
             </picture>
           </div>
           <!--close first column -->
-          <div>
+          <div class="col-md-6">
             <!-- open second column -->
+            <h4>Tools used: paper & pencil, keynote</h4>
             <picture>
               <source srcset="img/refab/Wireframes.002_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.002_1200.jpeg" alt="Lo-fidelity wireframes">
             </picture>
+              <h4>Tools used: Sketch, keynote</h4>
             <picture>
               <source srcset="img/refab/Wireframes.004_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.004_1200.jpeg" alt="Mid-fidelity wireframes">
             </picture>
+            <h4>Tools used: Sketch, Invision</h4>
             <picture>
               <source srcset="img/refab/Wireframes.006_600.jpeg" media="(max-width:767px)">
               <img src="img/refab/Wireframes.006_1200.jpeg" alt="Hi fidelity mockups">
@@ -378,7 +392,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6">
             <!-- open first column -->
             <span class="refab-h4-red"><h4>Issue #1: High Severity</h4></span>
             <p>Find a Pro Link is confusing. Where's the home page?</p>
@@ -397,7 +411,7 @@
               <img src="img/refab/Usability-Testing.003_1200.jpeg" alt="Issue #3">
             </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6">
             <!-- open second column -->
             <span class="refab-h4-red"><h4>Issue #2: High Severity</h4></span>
             <p>Unsure how to schedule a call or service.</p>
@@ -416,7 +430,8 @@
               <img src="img/refab/Usability-Testing.004_1200.jpeg" alt="Issue #4">
             </picture>
           </div><!-- close second column -->
-          <a href="refab-testing.html">
+          <div class="row"><!-- open row -->
+          <a href="refab-testing.html" class="button-refab">
             <svg width="170px" height="45px" viewBox="0 0 170 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>Full Test Report Button</title>
               <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -431,6 +446,7 @@
               </g>
             </svg>
           </a>
+        </div><!-- close row -->
         </div><!-- close row with two columns -->
         <div id="preference-testing" class="row-refab">
           <!-- open row, Preference Testing section -->
@@ -443,7 +459,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6-l">
             <!-- open first column -->
             <h4>Preference Test #1</h4>
             <p>Focus on UI color and contrast and user engagement</p>
@@ -454,7 +470,7 @@
             </picture>
           </div>
           <!--close first column -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open second column -->
             <h4>Preference Test #2</h4>
             <p>Focus on UI color and contrast and user engagement</p>
@@ -480,7 +496,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6-l">
             <!-- open first column -->
             <h4>12 Column Grid</h4>
             <p>Mobile: Column width 20 px; Gutter width 9 px</p>
@@ -491,7 +507,7 @@
               <li>Stretch full-size buttons and text to edges of outermost columns</li>
             </ol>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open second column -->
             <picture>
               <source srcset="img/refab/Style-Guide_grid.001_600.jpeg" media="(max-width:767px)">
@@ -506,7 +522,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6-l">
             <!-- open first column -->
             <picture>
               <source srcset="img/refab/Accessibility.001_600.jpeg" media="(max-width:767px)">
@@ -520,7 +536,7 @@
               <li>Contrast: Darkened icons and text on bottom navigation bar</li>
             </ol>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open second column -->
             <picture>
               <source srcset="img/refab/Accessibility.002_600.jpeg" media="(max-width:767px)">
@@ -536,7 +552,7 @@
         <div id="final-prototypes" class="row">
           <!-- open row with two columns -->
           <span class="refab-h1-left"><h1>Final Prototypes</h1></span>
-          <div>
+          <div class="col-md-6-l">
             <!-- open first column -->
             <a href="https://invis.io/4ZX7ZF883NF" target="_blank">
               <picture>
@@ -545,7 +561,7 @@
               </picture>
             </a>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open second column -->
             <a href="https://invis.io/TYXBLQTS5EF" target="_blank">
               <picture>
@@ -572,26 +588,24 @@
       <!-- open container -->
       <div class="social">
         <!-- email and social media links -->
-        <nav>
-          <a href="mailto:jennifer.leigh.livingston@gmail.com" target="_blank" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 512 512">
-              <path
-                d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" />
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/jenniferlivingston27" target="_blank" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 448 512">
-              <path
-                d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
-            </svg>
-          </a>
-          <a href="https://www.behance.net/jenniferlivingston" target="_blank" class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 576 512">
-              <path
-                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
-            </svg>
-          </a>
-        </nav>
+        <a href="mailto:jennifer.leigh.livingston@gmail.com" target="_blank" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 512 512">
+            <path
+              d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/jenniferlivingston27" target="_blank" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 448 512">
+            <path
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+          </svg>
+        </a>
+        <a href="https://www.behance.net/jenniferlivingston" target="_blank" class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 576 512">
+            <path
+              d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
+          </svg>
+        </a>
       </div><!-- close email and social media links -->
       <div class="copyright">
         <p>copyright Jennifer Livingston 2020</p>

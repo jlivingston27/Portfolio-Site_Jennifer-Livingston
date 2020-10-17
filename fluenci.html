@@ -49,9 +49,9 @@
     <div class="block2">
         <nav>
           <ul>
-            <li><a href="index.html">Work</a></li>
-            <li><a href="resume.html">Resume</a></li>
             <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="index.html">Work</a></li>
           </ul>
         </nav>
       </div><!-- close block2 -->
@@ -85,7 +85,7 @@
         </div><!-- close row -->
         <div  class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6-l">
             <!-- open first column -->
             <ul>
               <li><a href="#competitive-research" class="text-link-fluenci">Competitive Research</a></li>
@@ -93,7 +93,7 @@
               <li><a href="#user-flows" class="text-link-fluenci">User Flows</a></li>
             </ul>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open second column -->
             <ul>
               <li><a href="#wireframes-prototypes" class="text-link-fluenci">Wireframes & Prototypes</a></li>
@@ -110,7 +110,7 @@
         </div><!-- close row -->
         <div  class="row">
           <!-- open row with three columns -->
-          <div>
+          <div class="col-md-4">
             <!-- open first column -->
             <h3>Brainscape</h3>
             <picture>
@@ -124,9 +124,9 @@
               <li>There’s no option to take quizzes or tests to gauge progress</li>
             </ol>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-4">
             <!-- open second column -->
-            <h3>StudyBlue</h3>
+          <h3>StudyBlue</h3>
             <picture>
               <source srcset="img/fluenci/Competitive Analysis-2_Studyblue-logo_600.png" media="(max-width:767px)">
               <img src="img/fluenci/Competitive Analysis-2_Studyblue-logo_1200.png" alt="StudyBlue logo">
@@ -138,7 +138,7 @@
               <li>Some features and content are redundant</li>
             </ol>
           </div><!-- close second column -->
-          <div>
+          <div class="col-md-4">
             <!-- open third column -->
             <h3>Memrise</h3>
             <picture>
@@ -160,14 +160,14 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6-r">
             <!-- open first column -->
             <picture>
               <source srcset="img/fluenci/User-Persona1_600.jpeg" media="(max-width:767px)">
               <img src="img/fluenci/User-Persona1_1200.jpeg" alt="User Persona">
             </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6-l">
             <!-- open second column -->
             <picture>
               <source srcset="img/fluenci/User-Persona2_600.jpeg" media="(max-width:767px)">
@@ -194,44 +194,44 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with three columns -->
-          <div>
+          <div class="col-md-4">
             <!-- open first column -->
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-1_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-1_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Sign Up & Onboarding</h4>
+            <span class="flunci-h5"><h5>Sign Up & Onboarding</h5></span>
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-4_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-4_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Learn Mode</h4>
+            <span class="flunci-h5"><h5>Learn Mode</h5></span>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-4">
             <!-- open second column -->
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-3_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-3_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Learn/Quiz Mode</h4>
+            <span class="flunci-h5"><h5>Learn/Quiz Mode</h5></span>
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-2_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-2_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Add New Vocabulary</h4>
+            <span class="flunci-h5"><h5>Add New Vocabulary</h5></span>
           </div><!-- close second column -->
-          <div>
+          <div class="col-md-4">
             <!-- open third column -->
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-5_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-5_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Quiz Mode & Progress</h4>
+            <span class="flunci-h5"><h5>Quiz Mode & Progress</h5></span>
             <picture>
               <source srcset="img/fluenci/Lo-fi_wireframes-6_600.jpg" media="(max-width:767px)">
               <img src="img/fluenci/Lo-fi_wireframes-6_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-            <h4>Profile & Admin</h4>
+            <span class="flunci-h5"><h5>Profile & Admin</h5></span>
           </div><!-- close third column -->
         </div><!-- close row with three columns -->
         <div id="usability-testing" class="row-fluenci">
@@ -241,7 +241,7 @@
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
-          <div>
+          <div class="col-md-6">
             <!-- open first column -->
             <h4>Observations:</h4>
             <ol>
@@ -250,25 +250,31 @@
               <li>Navigation to quiz mode is confusing. Too many navigation buttons at the bottom of the screen.</li>
               <li>No confirmation of adding a new word or phrase. Having two ‘+’ buttons when adding a new word or phase is confusing.</li>
             </ol>
-            <h4>Improvements:</h4>
-            <picture>
-              <source srcset="img/fluenci/Usability-Revisions.001_600.jpeg" media="(max-width:767px)">
-              <img src="img/fluenci/Usability-Revisions.001_1200.jpeg" alt="Usability Revisions">
-            </picture>
           </div><!-- close first column -->
-          <div>
+          <div class="col-md-6">
             <!-- open second column -->
             <picture>
               <source srcset="img/fluenci/observations.001_600.jpeg" media="(max-width:767px)">
               <img src="img/fluenci/observations.001_1200.jpeg" alt="Usability Revisions">
             </picture>
+          </div><!-- close second column -->
+        </div><!-- close row with two columns -->
+        <h4>Improvements:</h4>
+        <div class="row"><!-- open row with two columns -->
+          <div class="col-md-6"><!-- open first column -->
+            <picture>
+              <source srcset="img/fluenci/Usability-Revisions.001_600.jpeg" media="(max-width:767px)">
+              <img src="img/fluenci/Usability-Revisions.001_1200.jpeg" alt="Usability Revisions">
+            </picture>
+          </div><!-- close first column -->
+          <div class="col-md-6"><!-- open second column -->
             <picture>
               <source srcset="img/fluenci/Usability-Revisions.002_600.jpeg" media="(max-width:767px)">
               <img src="img/fluenci/Usability-Revisions.002_1200.jpeg" alt="Usability Revisions">
             </picture>
           </div><!-- close second column -->
-        </div><!-- close row with two columns -->
-        <div class="row">
+        </div>
+        <div class="row-fluenci">
           <!-- open row, Mid-fidelity Wireframes section -->
           <h1>Mid-fidelity wireframes</h1>
           <h3>After usability testing, we produced another round of wireframes to develop the app in Sketch.</h3>
@@ -281,7 +287,7 @@
           </picture>
           <h4>Select a Language & Start a Lesson</h4>
         </div><!-- close row -->
-        <div class="row">
+        <div class="row-fluenci">
           <!-- open row, Hi-fidelity Wireframes section -->
           <h1>Hi-fidelity wireframes</h1>
           <h3>We further developed the UI, using color to emphasize transitions and improve user engagement.</h3>
@@ -314,10 +320,10 @@
 
   <!-- Footer  -->
   <footer>
-    <div class="container"><!-- open container -->
+    <div class="container">
+      <!-- open container -->
       <div class="social">
-      <!-- email and social media links -->
-      <nav>
+        <!-- email and social media links -->
         <a href="mailto:jennifer.leigh.livingston@gmail.com" target="_blank" class="icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 512 512">
             <path
@@ -336,11 +342,10 @@
               d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
           </svg>
         </a>
-      </nav>
-    </div><!-- close email and social media links -->
-    <div class="copyright">
-      <p>copyright Jennifer Livingston 2020</p>
-    </div>
+      </div><!-- close email and social media links -->
+      <div class="copyright">
+        <p>copyright Jennifer Livingston 2020</p>
+      </div>
     </div><!-- close container -->
   </footer>
 </body>
