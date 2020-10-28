@@ -143,7 +143,7 @@ nav>ul>li>a {
 
 /* Body Layout styling */
 main {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 #hero {
@@ -229,7 +229,7 @@ animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 .row {
-  margin: 5px 15px;
+  margin: 15px 15px;
   display: inline-block;
   width: 100%;
   /* 5px top and bottom, 15px left and right */
@@ -269,6 +269,53 @@ position: relative;
 width: 100% !important;
 }
 /* */
+#competitive-analysis {
+  padding-top: 80px;
+}
+
+#user-research {
+  padding-top: 80px;
+}
+
+#user-personas {
+  padding-top: 80px;
+}
+
+#site-mapping {
+  padding-top: 80px;
+}
+
+#wireframes-prototypes {
+  padding-top: 80px;
+}
+
+#style-guide {
+  padding-top: 80px;
+}
+
+#accessibility {
+  padding-top: 80px;
+}
+
+#final-prototypes {
+  padding-top: 80px;
+}
+
+#usability-testing {
+  padding-top: 80px;
+}
+
+#preference-testing {
+  padding-top: 80px;
+}
+
+#style-guide {
+  padding-top: 80px;
+}
+
+.col-md-6-ca {
+  padding: 20px 20px;
+}
 
 .refab-h1 {
   text-align: center;
@@ -284,9 +331,15 @@ width: 100% !important;
   color: #5F5F5F;
 }
 
+.refab-h3-blue {
+  text-align: center;
+  color: #14A2B2;
+  font-style: italic;
+}
+
 .refab-h3-orange {
   text-align: center;
-  color: #F25D28;
+  color: #FA6400;
 }
 
 .refab-h4-red {
@@ -332,6 +385,30 @@ width: 100% !important;
 }
 
 /* Fluenci page styling */
+#competitive-research {
+  padding-top: 80px;
+}
+
+#proto-persona {
+  padding-top: 80px;
+}
+
+#user-flows {
+  padding-top: 80px;
+}
+
+#wireframes-prototypes {
+  padding-top: 80px;
+}
+
+#usability-testing {
+  padding-top: 80px;
+}
+
+#ui-development {
+  padding-top: 80px;
+}
+
 .row-fluenci {
   padding: 30px;
   text-align: center;
@@ -371,8 +448,17 @@ width: 100% !important;
   color: #0087E2;
 }
 
-.flunci-h5 {
+.fluenci-h4-blue {
   color: #0087E2;
+}
+
+.fluenci-h5 {
+  color: #0087E2;
+}
+
+.fluenci-prototype {
+  text-align: center;
+  width: 60%;
 }
 
 /* Toast page styling */
@@ -389,6 +475,47 @@ width: 100% !important;
   left: 0;
   right: 0;
   z-index: -1;
+}
+
+#competitive-research {
+  padding-top: 80px;
+}
+
+#user-personas {
+  padding-top: 80px;
+}
+
+#site-map {
+  padding-top: 80px;
+}
+
+#wireframes-prototypes {
+  padding-top: 80px;
+}
+
+#visual-design {
+  padding-top: 80px;
+}
+
+#hi-fi-mockups {
+  padding-top: 80px;
+}
+
+#style-guide {
+  padding-top: 80px;
+}
+
+#animations {
+  padding-top: 80px;
+}
+
+#final-mockups {
+  padding-top: 80px;
+}
+
+.inner-container {
+  width: 70%;
+  text-align: center;
 }
 
 .toast-h1 {
@@ -412,6 +539,7 @@ width: 100% !important;
 
 /* Nonprofit Collaboration page styling */
 .nonprofit {
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -443,6 +571,10 @@ width: 100% !important;
   color: #23B4C4;
 }
 
+/* About page styling */
+.wrapper {
+  margin-top: 40px;
+}
 
 /* Typical Button styling */
 .button {
@@ -485,6 +617,16 @@ Medium devices (640px and larger)
     float: left;
   }
 
+.col-md-9 {
+  width: 75%;
+  padding: 10px;
+}
+
+.col-md-8 {
+  width: 66.66%;
+  padding: 10px;
+}
+
   .col-md-4 {
     width: 33.33%;
     padding: 10px;
@@ -492,6 +634,7 @@ Medium devices (640px and larger)
 
   .col-md-3 {
     width: 25%;
+    padding: 10px;
   }
 
   .col-md-2 {
@@ -509,6 +652,10 @@ Medium devices (640px and larger)
 
   .col-md-6-c {
     text-align: center;
+  }
+
+  .col-md-6-ca {
+    padding: 20px 20px;
   }
 
 /* Refab page */
@@ -559,6 +706,16 @@ Large devices (1024px or larger)
     float: left;
   }
 
+  .col-md-9 {
+    width: 75%;
+    padding: 10px;
+  }
+
+  .col-md-8 {
+    width: 66.66%;
+    padding: 10px;
+  }
+
   .col-md-4 {
     width: 33.33%;
   }
@@ -567,9 +724,10 @@ Large devices (1024px or larger)
     width: 25%;
   }
 
-    .col-md-2 {
-      width: 16.66%
-    }
+  .col-md-2 {
+    width: 16.66%
+  }
+
 
   .container {
     max-width: 1200px;
