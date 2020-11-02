@@ -113,6 +113,7 @@ header {
   top: 0;
   align-items: center;
   display: flex;
+  max-width: 280px;
 }
 
 .logo {
@@ -120,16 +121,19 @@ header {
   padding-right: 20px;
 }
 
+.heading1 {
+  font-size: 8px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
 nav>ul {
   display: inline-block;
   float: right;
   width: 100%;
   list-style-type: none;
-}
-
-nav>ul>li {
-  display: inline-block;
-  float: right;
 }
 
 nav>ul>li>a {
@@ -141,26 +145,60 @@ nav>ul>li>a {
   float: right;
 }
 
-/* Body Layout styling */
-main {
-  padding-top: 80px;
+.navtoggle li:not(:first-child) {
+  display: none;
 }
 
+.navtoggle li .icon2 {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.navtoggle.responsive nav {
+  display: block;
+  padding: 24px 0 0;
+  text-align: center;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 10px;
+  border-top: 1px solid #5F5F5F;
+  text-align: center;
+}
+
+.navtoggle.responsive li:last-child  {
+  display: block;
+  text-align: center;
+  padding: 0 0 10px;
+}
+
+.navtoggle.responsive a {
+  display: block;
+  text-align: center;
+}
+
+/* Body Layout styling */
+main {
+  padding-top: 20px;
+}
+
+/* hero section home page layout styling */
 #hero {
   display: inline-block;
   width: 100%;
 }
 
 .hero1 {
-  display: inline-block;
-  width: 80%;
-  float: left;
+  width: 100%;
+  font-size: 12px;
 }
 
 .hero2 {
-  padding-top: 40px;
-  display: inline-block;
-  float: right;
+  text-align: center;
 }
 
 /* home page layout styling */
@@ -170,7 +208,12 @@ main {
 }
 
 .wrapper2 {
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.container-home {
+  padding: 5px 20px;
+  /* 15px top and bottom, left and right */
 }
 
 /* home page image hover states */
@@ -183,6 +226,7 @@ main {
   opacity: 0.8;
 }
 
+/* GENERAL LAYOUT STYLING */
 .container {
   padding: 15px 15px;
   /* 15px top and bottom, left and right */
@@ -314,7 +358,7 @@ width: 100% !important;
   color: green;
 }
 
-.button-refab{
+.button-refab {
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -326,7 +370,6 @@ width: 100% !important;
 .button-refab:hover {
   opacity: 0.8;
 }
-
 
 /* Refab-testing page styling */
 .row-refab-test {
@@ -566,10 +609,49 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  .heading1 {
+    font-size: 1.00em;
+    font-weight: 400;
+  }
+
+  .block1 {
+    max-width: 1000px;
+  }
+
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+    float: right;
+  }
+
+  .navtoggle li:not(:first-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:first-child {
+    display: none;
+  }
+
+  main {
+    padding-top: 80px;
+  }
+
+  .hero1 {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .hero2 {
+    padding-top: 40px;
+    display: inline-block;
+    float: right;
   }
 
   [class*="col-"] {
@@ -577,15 +659,15 @@ Medium devices (640px and larger)
     float: left;
   }
 
-.col-md-9 {
-  width: 75%;
-  padding: 10px;
-}
+  .col-md-9 {
+    width: 75%;
+    padding: 10px;
+  }
 
-.col-md-8 {
-  width: 66.66%;
-  padding: 10px;
-}
+  .col-md-8 {
+    width: 66.66%;
+    padding: 10px;
+  }
 
   .col-md-4 {
     width: 33.33%;
@@ -618,13 +700,13 @@ Medium devices (640px and larger)
     padding: 20px 20px;
   }
 
-/* Refab page */
-.test-button {
-  text-align: center;
-  padding-top: 10px;
-}
+  /* Refab page */
+  .test-button {
+    text-align: center;
+    padding-top: 10px;
+  }
 
-/* Resume page */
+  /* Resume page */
   .col-md-6-l-resume {
     padding-left: 80px;
     width: 30%;
@@ -641,7 +723,6 @@ Medium devices (640px and larger)
   }
 }
 
-
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -651,10 +732,49 @@ Large devices (1024px or larger)
     padding: 20px 0 13px;
   }
 
+  .heading1 {
+    font-size: 1.00em;
+    font-weight: 400;
+  }
+
+  .block1 {
+    max-width: 1000px;
+  }
+
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+    float: right;
+  }
+
+  .navtoggle li:not(:first-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:first-child {
+    display: none;
+  }
+
+  main {
+    padding-top: 80px;
+  }
+
+  .hero1 {
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .hero2 {
+    padding-top: 40px;
+    display: inline-block;
+    float: right;
   }
 
   body {
@@ -688,24 +808,24 @@ Large devices (1024px or larger)
     width: 16.66%
   }
 
-
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
 
-/* Resume page */
-.col-md-6-l-resume {
-  padding-left: 80px;
-  width: 30%;
-}
+  /* Resume page */
+  .col-md-6-l-resume {
+    padding-left: 80px;
+    width: 30%;
+  }
 
-.col-md-6-r-resume {
-  padding-left: 40px;
-  padding-right: 80px;
-  width: 70%;
-}
+  .col-md-6-r-resume {
+    padding-left: 40px;
+    padding-right: 80px;
+    width: 70%;
+  }
+
   .resume-button {
     text-align: unset;
   }
