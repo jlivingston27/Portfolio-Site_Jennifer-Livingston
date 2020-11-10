@@ -11,7 +11,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #5F5F5F;
+  color: #5f5f5f;
 }
 
 h1, h2, h3, h4 {
@@ -177,14 +177,14 @@ nav>ul>li>a {
   display: block;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 20px;
   border-bottom: 1px solid #5F5F5F;
   text-align: center;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   display: block;
   padding: 20px 20px 20px;
 }
@@ -198,7 +198,7 @@ nav>ul>li>a {
 }
 
 .navtoggle, .navtoggle.responsive {
-position: relative;
+  position: relative;
 }
 
 /* Body Layout styling */
@@ -263,6 +263,16 @@ main {
   content: "";
   clear: both;
   display: table;
+}
+
+.header-project-h1 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.header-project-h3 {
+  font-size: 9px;
+  font-weight: 300;
 }
 
 /*
@@ -389,6 +399,7 @@ width: 100% !important;
 
 .button-refab:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 /* Refab-testing page styling */
@@ -588,6 +599,7 @@ width: 100% !important;
 
 .resume-button:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 .resume-header1 {
@@ -603,7 +615,6 @@ width: 100% !important;
   padding-top: 20px;
 }
 
-
 /* Typical Button styling */
 .button {
   transition-duration: 0.2s;
@@ -612,6 +623,7 @@ width: 100% !important;
 
 .button:hover {
   opacity: 0.8;
+  text-decoration: none;
 }
 
 /* Footer styling */
@@ -635,12 +647,13 @@ Medium devices (640px and larger)
   }
 
   .heading1 {
-    font-size: 1.00em;
+    font-size: 10px;
     font-weight: 400;
+    padding-bottom: 15px;
   }
 
   .block1 {
-    max-width: 1000px;
+    max-width: 300px;
     padding-top: 35px;
   }
 
@@ -726,10 +739,25 @@ Medium devices (640px and larger)
     padding: 20px 20px;
   }
 
+  .header-project-h1 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .header-project-h3 {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
   /* Refab page */
   .test-button {
     text-align: center;
     padding-top: 10px;
+  }
+
+  /* Abour page */
+  .padding {
+    padding-right: 20px;
   }
 
   /* Resume page */
@@ -843,6 +871,16 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
+  .header-project-h1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .header-project-h3 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
   /* Resume page */
   .col-md-6-l-resume {
     padding-left: 80px;
@@ -894,4 +932,4 @@ Tertiary Color (Light Green): #F5FFE3
 
 Colors for Nonprofit page:
 TBD
-/*
+*/

@@ -19,7 +19,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
-    <script src="https://kit.fontawesome.com/03adcc7020.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/03adcc7020.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,28 +27,28 @@
   <header>
     <div class="container">
       <div id="myNavtoggle" class="navtoggle">
-      <div class="block1">
-        <a href="index.html" class="logo">
-          <svg width="40px" height="40px" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <title>Logo</title>
-            <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="Group-5">
-                <rect id="Rectangle" fill="#FA6400" x="0" y="0" width="700" height="700"></rect>
-                <g id="Group-4" transform="translate(24.000000, 70.000000)" fill="#FFFFFF">
-                  <rect id="Rectangle" x="171" y="0" width="130" height="558"></rect>
-                  <rect id="Rectangle" x="350" y="0" width="130" height="558"></rect>
-                  <path d="M645.5,564.257812 L511,564.257812 C511,466.752604 555.833333,418 645.5,418 L645.5,564.257812 Z" id="Path-2" transform="translate(578.250000, 491.128906) rotate(-270.000000) translate(-578.250000, -491.128906) "></path>
-                  <path d="M140.5,564.257812 L6,564.257812 C6,466.752604 50.8333333,418 140.5,418 L140.5,564.257812 Z" id="Path-2" transform="translate(73.250000, 491.128906) rotate(-90.000000) translate(-73.250000, -491.128906) "></path>
+        <div class="block1">
+          <a href="index.html" class="logo">
+            <svg width="40px" height="40px" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <title>Logo</title>
+              <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Group-5">
+                  <rect id="Rectangle" fill="#FA6400" x="0" y="0" width="700" height="700"></rect>
+                  <g id="Group-4" transform="translate(24.000000, 70.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle1" x="171" y="0" width="130" height="558"></rect>
+                    <rect id="Rectangle2" x="350" y="0" width="130" height="558"></rect>
+                    <path d="M645.5,564.257812 L511,564.257812 C511,466.752604 555.833333,418 645.5,418 L645.5,564.257812 Z" id="Path-2" transform="translate(578.250000, 491.128906) rotate(-270.000000) translate(-578.250000, -491.128906) "></path>
+                    <path d="M140.5,564.257812 L6,564.257812 C6,466.752604 50.8333333,418 140.5,418 L140.5,564.257812 Z" id="Path-3" transform="translate(73.250000, 491.128906) rotate(-90.000000) translate(-73.250000, -491.128906) "></path>
+                  </g>
                 </g>
               </g>
-            </g>
-          </svg>
-        </a>
-        <a href="index.html" class="heading1">
-          <h2>Jennifer Livingston - UX Designer</h2>
-        </a>
-      </div><!-- close block1 -->
-      <div class="block2">
+            </svg>
+          </a>
+          <a href="index.html" class="heading1">
+            <h2>Jennifer Livingston - UX Designer</h2>
+          </a>
+        </div><!-- close block1 -->
+        <div class="block2">
           <nav>
             <ul>
               <li><a href="javascript:void(0);" class="icon2" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
@@ -57,7 +57,7 @@
               <li><a href="index.html">Work</a></li>
             </ul>
           </nav>
-      </div><!-- close block2 -->
+        </div><!-- close block2 -->
       </div><!-- close nav toggle -->
     </div><!-- close container -->
   </header>
@@ -78,9 +78,9 @@
         </div><!-- close first row -->
         <div class="row">
           <!-- open row, About Project Section -->
-          <span class="fluenci-h1-left">
+          <div class="fluenci-h1-left">
             <h1>About the Project</h1>
-          </span>
+          </div>
           <p>Fluenci is a prototype app designed for users to practice languages whenever and wherever it works for them. Goal setting and benchmarks help users stay on track. Multi-media formats, including flashcards, messaging, audio and video help
             support learning in a number of ways. Quizzes help users test their skills and track progress. Users need a way to practice language skills that allows for goal setting and flexibility, because they need motivation to stay on track and
             have busy schedules. I was responsible for UX design including:</p>
@@ -107,8 +107,12 @@
         </div><!-- close row with two columns -->
         <div id="competitive-research" class="row-fluenci">
           <!-- open row, Competitive Research Section -->
-          <h1>Competitive Research</h1>
-          <h3>We looked at three vocabulary and language study apps to better understand the competition.</h3>
+          <div class="header-project-h1">
+            <h1>Competitive Research</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>We looked at three vocabulary and language study apps to better understand the competition.</h3>
+          </div>
         </div><!-- close row -->
         <div class="row">
           <!-- open row with three columns -->
@@ -116,8 +120,8 @@
             <!-- open first column -->
             <h3>Brainscape</h3>
             <picture>
-              <source srcset="img/fluenci/Competitive Analysis-1_Brainscape-logo_600.jpeg" media="(max-width:767px)">
-              <img src="img/fluenci/Competitive Analysis-1_Brainscape-logo_1200.jpeg" alt="Brainscape logo">
+              <source srcset="img/fluenci/Competitive-Analysis-1_Brainscape-logo_600.jpeg" media="(max-width:767px)">
+              <img src="img/fluenci/Competitive-Analysis-1_Brainscape-logo_1200.jpeg" alt="Brainscape logo">
             </picture>
             <h4>Key Takeaways:</h4>
             <ol>
@@ -130,8 +134,8 @@
             <!-- open second column -->
             <h3>StudyBlue</h3>
             <picture>
-              <source srcset="img/fluenci/Competitive Analysis-2_Studyblue-logo_600.png" media="(max-width:767px)">
-              <img src="img/fluenci/Competitive Analysis-2_Studyblue-logo_1200.png" alt="StudyBlue logo">
+              <source srcset="img/fluenci/Competitive-Analysis-2_Studyblue-logo_600.png" media="(max-width:767px)">
+              <img src="img/fluenci/Competitive-Analysis-2_Studyblue-logo_1200.png" alt="StudyBlue logo">
             </picture>
             <h4>Key Takeaways:</h4>
             <ol>
@@ -144,8 +148,8 @@
             <!-- open third column -->
             <h3>Memrise</h3>
             <picture>
-              <source srcset="img/fluenci/Competitive Analysis-3_memerise-logo_600.jpg" media="(max-width:767px)">
-              <img src="img/fluenci/Competitive Analysis-3_memerise-logo_1200.jpg" alt="Memrise logo">
+              <source srcset="img/fluenci/Competitive-Analysis-3_memerise-logo_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Competitive-Analysis-3_memerise-logo_1200.jpg" alt="Memrise logo">
             </picture>
             <h4>Key Takeaways:</h4>
             <ol>
@@ -157,8 +161,12 @@
         </div><!-- close row with three columns -->
         <div id="proto-persona" class="row-fluenci">
           <!-- open row, Persona Section -->
-          <h1>Proto-Persona</h1>
-          <h3>We used our competitive analysis and user research to develop our persona, Reggie, a young, busy professional.</h3>
+          <div class="header-project-h1">
+            <h1>Proto-Persona</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>We used our competitive analysis and user research to develop our persona, Reggie, a young, busy professional.</h3>
+          </div>
         </div><!-- close row -->
         <div class="row">
           <!-- open row with two columns -->
@@ -179,205 +187,234 @@
         </div><!-- close row with two columns -->
         <div id="user-flows" class="row-fluenci">
           <!-- open row, User Flows Section -->
-          <h1>User Flows</h1>
-          <h3>Reggie needs a way to practice her language skills and learn new languages that allows for flexibility, goal setting and motivation.</h3>
+          <div class="header-project-h1">
+            <h1>User Flows</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>Reggie needs a way to practice her language skills and learn new languages that allows for flexibility, goal setting and motivation.</h3>
+          </div>
         </div><!-- close row -->
         <div class="row">
           <!-- open row with 2 columns -->
-          <div class="col-md-6"><!-- open first column -->
+          <div class="col-md-6">
+            <!-- open first column -->
+            <div class="fluenci-h3-blue">
+              <h3>LEARN</h3>
+            </div>
             <picture>
-              <span class="fluenci-h3-blue">
-                <h3>LEARN</h3>
-              </span>
               <source srcset="img/fluenci/User-Flows1_600.png" media="(max-width:767px)">
               <img src="img/fluenci/User-Flows1_1200.png" alt="User Flows">
             </picture>
           </div><!-- close first column -->
-          <div class="col-md-6"><!-- open second column -->
-            <span class="fluenci-h3-blue">
+          <div class="col-md-6">
+            <!-- open second column -->
+            <div class="fluenci-h3-blue">
               <h3>QUIZ</h3>
-            </span>
+            </div>
             <picture>
               <source srcset="img/fluenci/User-Flows2_600.png" media="(max-width:767px)">
               <img src="img/fluenci/User-Flows2_1200.png" alt="User Flows">
             </picture>
           </div><!-- close second column -->
-      </div><!-- close row with 2 columns -->
-      <div id="wireframes-prototypes" class="row-fluenci">
-        <!-- open row, Wireframes and Prototypes section -->
-        <h1>Wireframes & Prototypes</h1>
-        <h3>We used our user flows to begin developing lo-fidelity wireframes and prototypes based on our personas needs.</h3>
-      </div><!-- close row -->
-      <div class="row">
-        <!-- open row with three columns -->
-        <div class="col-md-4">
-          <!-- open first column -->
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-1_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-1_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Sign Up & Onboarding</h5>
-          </span>
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-4_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-4_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Learn Mode</h5>
-          </span>
-        </div><!-- close first column -->
-        <div class="col-md-4">
-          <!-- open second column -->
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-3_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-3_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Learn/Quiz Mode</h5>
-          </span>
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-2_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-2_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Add New Vocabulary</h5>
-          </span>
-        </div><!-- close second column -->
-        <div class="col-md-4">
-          <!-- open third column -->
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-5_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-5_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Quiz Mode & Progress</h5>
-          </span>
-          <picture>
-            <source srcset="img/fluenci/Lo-fi_wireframes-6_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Lo-fi_wireframes-6_1200.jpg" alt="Lo-fidelity Wireframes">
-          </picture>
-          <span class="fluenci-h5">
-            <h5>Profile & Admin</h5>
-          </span>
-        </div><!-- close third column -->
-      </div><!-- close row with three columns -->
-      <div id="usability-testing" class="row-fluenci">
-        <!-- open row, Usability Testing section -->
-        <h1>Usability Testing</h1>
-        <h3>We began user testing early in the process and started getting feedback on our lo-fidelity prototype.</h3>
-      </div><!-- close row -->
-      <div class="row">
-        <!-- open row with two columns -->
-        <span class="fluenci-h3-blue">
-          <h3>"Sign up and starting is easy."</h3>
-          <h3>"The bottom navigation buttons are confusing."</h3>
-          <h3>"There's no confirmation when I add a word."</h3>
-        </span>
-        <div class="col-md-6-l">
-          <!-- open first column -->
-          <span class="fluenci-h4-blue"><h4>Observations:</h4></span>
-          <ol>
-            <li>Sign up and starting the first lesson is easy.</li>
-            <li>The profile button at the bottom right and the speech bubble were confusing when completing a lesson.</li>
-            <li>Navigation to quiz mode is confusing. Too many navigation buttons at the bottom of the screen.</li>
-            <li>No confirmation of adding a new word or phrase. Having two ‘+’ buttons when adding a new word or phase is confusing.</li>
-          </ol>
-        </div><!-- close first column -->
-        <div class="col-md-6-r">
-          <!-- open second column -->
-          <picture>
-            <source srcset="img/fluenci/observations.001_600.jpeg" media="(max-width:767px)">
-            <img src="img/fluenci/observations.001_1200.jpeg" alt="Usability Revisions">
-          </picture>
-        </div><!-- close second column -->
-      </div><!-- close row with two columns -->
-      <div class="row">
-        <!-- open row with two columns -->
-        <span class="fluenci-h4-blue"><h4>Improvements:</h4></span>
-        <div class="col-md-6-l">
-          <!-- open first column -->
-          <p>Removed unnecessary and confusing icons from the bottom navigation bar.</p>
-          <p>Added clear options on the home screen to select learn or quiz.</p>
-          <picture>
-            <source srcset="img/fluenci/Usability-Revisions.001_600.jpeg" media="(max-width:767px)">
-            <img src="img/fluenci/Usability-Revisions.001_1200.jpeg" alt="Usability Revisions">
-          </picture>
-        </div><!-- close first column -->
-        <div class="col-md-6-r">
-          <!-- open second column -->
-          <p>User profile info can now be accessed from the settings icon at the top of the screen.</p>
-          <p>The '+' icon on the add word screen was replaced with a 'save' button.</p>
-          <picture>
-            <source srcset="img/fluenci/Usability-Revisions.002_600.jpeg" media="(max-width:767px)">
-            <img src="img/fluenci/Usability-Revisions.002_1200.jpeg" alt="Usability Revisions">
-          </picture>
-        </div><!-- close second column -->
-      </div>
-      <div class="row-fluenci">
-        <!-- open row, Mid-fidelity Wireframes section -->
-        <h1>Mid-fidelity Wireframes</h1>
-        <h3>After usability testing, we produced another round of wireframes to develop the app in Sketch.</h3>
-      </div><!-- close row -->
-      <div class="row">
-        <!-- open row -->
-        <h4>Mid-Fidelity: select a language & start a lesson</h4>
-        <p><b>Tools used:</b> Sketch, Keynote</p>
-        <picture>
-          <source srcset="img/fluenci/Mi-fi_wireframes_600.png" media="(max-width:767px)">
-          <img src="img/fluenci/Mi-fi_wireframes_1200.png" alt="Mid-Fidelity Wireframes">
-        </picture>
-      </div><!-- close row -->
-      <div class="row-fluenci">
-        <!-- open row, Hi-fidelity Wireframes section -->
-        <h1>Hi-fidelity Mockups</h1>
-        <h3>We further developed the UI, using color to emphasize transitions and improve user engagement.</h3>
-      </div><!-- close row -->
-      <div class="row">
-        <!-- open row -->
-        <h4>Hi-Fidelity: select a language & start a lesson</h4>
-        <p><b>Tools used:</b> Sketch, Invision</p>
-        <picture>
-          <source srcset="img/fluenci/Hi-fi_wireframes_600.png" media="(max-width:767px)">
-          <img src="img/fluenci/Hi-fi_wireframes_1200.png" alt="Hi-Fidelity Wireframes">
-        </picture>
-      </div><!-- close row -->
-      <div class="row">
-        <!-- open row, mockups section -->
-        <div class="col-md-6-r">
-          <picture>
-            <source srcset="img/fluenci/Mockup1_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Mockup1_1200.jpg" alt="Mobile Prototype">
-          </picture>
-        </div>
-        <div class="col-md-6-l">
-          <picture>
-            <source srcset="img/fluenci/Mockup2_600.jpg" media="(max-width:767px)">
-            <img src="img/fluenci/Mockup2_1200.jpg" alt="Mobile Prototype">
-          </picture>
-        </div>
-      </div>
-      <div id="ui-development" class="row">
-        <!-- open row, Progress Prototype section -->
-        <span class="fluenci-h1-left">
-          <h1>Prototype</h1>
-        </span>
-        <div>
-          <a href="https://invis.io/4TXYPUMHJ37" target="_blank">
+        </div><!-- close row with 2 columns -->
+        <div id="wireframes-prototypes" class="row-fluenci">
+          <!-- open row, Wireframes and Prototypes section -->
+          <div class="header-project-h1">
+            <h1>Wireframes & Prototypes</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>We used our user flows to begin developing lo-fidelity wireframes and prototypes based on our personas needs.</h3>
+          </div>
+        </div><!-- close row -->
+        <div class="row">
+          <!-- open row with three columns -->
+          <div class="col-md-4">
+            <!-- open first column -->
             <picture>
-              <source srcset="img/fluenci/Mockup4_600.png" media="(max-width:767px)">
-              <img src="img/fluenci/Mockup4_1200.png" alt="Mobile Prototype">
+              <source srcset="img/fluenci/Lo-fi_wireframes-1_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-1_1200.jpg" alt="Lo-fidelity Wireframes">
             </picture>
-          </a>
+            <div class="fluenci-h5">
+              <h5>Sign Up & Onboarding</h5>
+            </div>
+            <picture>
+              <source srcset="img/fluenci/Lo-fi_wireframes-4_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-4_1200.jpg" alt="Lo-fidelity Wireframes">
+            </picture>
+            <div class="fluenci-h5">
+              <h5>Learn Mode</h5>
+            </div>
+          </div><!-- close first column -->
+          <div class="col-md-4">
+            <!-- open second column -->
+            <picture>
+              <source srcset="img/fluenci/Lo-fi_wireframes-3_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-3_1200.jpg" alt="Lo-fidelity Wireframes">
+            </picture>
+            <div class="fluenci-h5">
+              <h5>Learn/Quiz Mode</h5>
+            </div>
+            <picture>
+              <source srcset="img/fluenci/Lo-fi_wireframes-2_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-2_1200.jpg" alt="Lo-fidelity Wireframes">
+            </picture>
+            <div class="fluenci-h5">
+              <h5>Add New Vocabulary</h5>
+            </div>
+          </div><!-- close second column -->
+          <div class="col-md-4">
+            <!-- open third column -->
+            <picture>
+              <source srcset="img/fluenci/Lo-fi_wireframes-5_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-5_1200.jpg" alt="Lo-fidelity Wireframes">
+            </picture>
+            <div class="fluenci-h5">
+              <h5>Quiz Mode & Progress</h5>
+            </div>
+            <picture>
+              <source srcset="img/fluenci/Lo-fi_wireframes-6_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Lo-fi_wireframes-6_1200.jpg" alt="Lo-fidelity Wireframes">
+            </picture>
+            <div class="fluenci-h5">
+              <h5>Profile & Admin</h5>
+            </div>
+          </div><!-- close third column -->
+        </div><!-- close row with three columns -->
+        <div id="usability-testing" class="row-fluenci">
+          <!-- open row, Usability Testing section -->
+          <div class="header-project-h1">
+            <h1>Usability Testing</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>We began user testing early in the process and started getting feedback on our lo-fidelity prototype.</h3>
+          </div>
+        </div><!-- close row -->
+        <div class="row">
+          <!-- open row with two columns -->
+          <div class="fluenci-h3-blue">
+            <h3>"Sign up and starting is easy."</h3>
+            <h3>"The bottom navigation buttons are confusing."</h3>
+            <h3>"There's no confirmation when I add a word."</h3>
+          </div>
+          <div class="col-md-6-l">
+            <!-- open first column -->
+            <div class="fluenci-h4-blue">
+              <h4>Observations:</h4>
+            </div>
+            <ol>
+              <li>Sign up and starting the first lesson is easy.</li>
+              <li>The profile button at the bottom right and the speech bubble were confusing when completing a lesson.</li>
+              <li>Navigation to quiz mode is confusing. Too many navigation buttons at the bottom of the screen.</li>
+              <li>No confirmation of adding a new word or phrase. Having two ‘+’ buttons when adding a new word or phase is confusing.</li>
+            </ol>
+          </div><!-- close first column -->
+          <div class="col-md-6-r">
+            <!-- open second column -->
+            <picture>
+              <source srcset="img/fluenci/observations.001_600.jpeg" media="(max-width:767px)">
+              <img src="img/fluenci/observations.001_1200.jpeg" alt="Usability Revisions">
+            </picture>
+          </div><!-- close second column -->
+        </div><!-- close row with two columns -->
+        <div class="row">
+          <!-- open row with two columns -->
+          <div class="fluenci-h4-blue">
+            <h4>Improvements:</h4>
+          </div>
+          <div class="col-md-6-r">
+            <!-- open first column -->
+            <ul>
+              <li>Removed unnecessary and confusing icons from the bottom navigation bar.</li>
+              <li>Added clear options to select learn or quiz.</li>
+            </ul>
+            <picture>
+              <source srcset="img/fluenci/Usability-Revisions.001_600.jpeg" media="(max-width:767px)">
+              <img src="img/fluenci/Usability-Revisions.001_1200.jpeg" alt="Usability Revisions">
+            </picture>
+          </div><!-- close first column -->
+          <div class="col-md-6-l">
+            <!-- open second column -->
+            <ul>
+              <li>User profile info can now be accessed from the settings icon at the top of the screen.</li>
+              <li>The '+' icon on the screen was replaced with a 'save' button.</li>
+            </ul>
+            <picture>
+              <source srcset="img/fluenci/Usability-Revisions.002_600.jpeg" media="(max-width:767px)">
+              <img src="img/fluenci/Usability-Revisions.002_1200.jpeg" alt="Usability Revisions">
+            </picture>
+          </div><!-- close second column -->
         </div>
-        <span class="fluenci-h1-left">
-          <h1>Main Takeaways</h1>
-        </span>
-        <p>We began by exploring the competition and quickly defining our product with a proto-persona. We developed user flows that help guide a series of rapid lo-fidelity wireframes and prototypes. We used these quick prototypes to conduct initial user
-          testing. We analyzed our results and determined ways to improve the product. We refined the UI, updated our prototype ,and completed a series of mockups.</p>
-        </a>
-      </div><!-- close row -->
-    </div><!-- close container -->
+        <div class="row-fluenci">
+          <!-- open row, Mid-fidelity Wireframes section -->
+          <div class="header-project-h1">
+            <h1>Mid-fidelity Wireframes</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>After usability testing, we produced another round of wireframes to develop the app in Sketch.</h3>
+          </div>
+        </div><!-- close row -->
+        <div class="row">
+          <!-- open row -->
+          <h4>Mid-Fidelity: select a language & start a lesson</h4>
+          <p><b>Tools used:</b> Sketch, Keynote</p>
+          <picture>
+            <source srcset="img/fluenci/Mi-fi_wireframes_600.png" media="(max-width:767px)">
+            <img src="img/fluenci/Mi-fi_wireframes_1200.png" alt="Mid-Fidelity Wireframes">
+          </picture>
+        </div><!-- close row -->
+        <div class="row-fluenci">
+          <!-- open row, Hi-fidelity Wireframes section -->
+          <div class="header-project-h1">
+            <h1>Hi-fidelity Mockups</h1>
+          </div>
+          <div class="header-project-h3">
+            <h3>We further developed the UI, using color to emphasize transitions and improve user engagement.</h3>
+          </div>
+        </div><!-- close row -->
+        <div class="row">
+          <!-- open row -->
+          <h4>Hi-Fidelity: select a language & start a lesson</h4>
+          <p><b>Tools used:</b> Sketch, Invision</p>
+          <picture>
+            <source srcset="img/fluenci/Hi-fi_wireframes_600.png" media="(max-width:767px)">
+            <img src="img/fluenci/Hi-fi_wireframes_1200.png" alt="Hi-Fidelity Wireframes">
+          </picture>
+        </div><!-- close row -->
+        <div class="row">
+          <!-- open row, mockups section -->
+          <div class="col-md-6-r">
+            <picture>
+              <source srcset="img/fluenci/Mockup1_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Mockup1_1200.jpg" alt="Mobile Prototype">
+            </picture>
+          </div>
+          <div class="col-md-6-l">
+            <picture>
+              <source srcset="img/fluenci/Mockup2_600.jpg" media="(max-width:767px)">
+              <img src="img/fluenci/Mockup2_1200.jpg" alt="Mobile Prototype">
+            </picture>
+          </div>
+        </div>
+        <div id="ui-development" class="row">
+          <!-- open row, Prototype section -->
+          <div class="fluenci-h1-left">
+            <h1>Prototype</h1>
+          </div>
+          <div>
+            <a href="https://invis.io/4TXYPUMHJ37" target="_blank">
+              <picture>
+                <source srcset="img/fluenci/Mockup4_600.png" media="(max-width:767px)">
+                <img src="img/fluenci/Mockup4_1200.png" alt="Mobile Prototype">
+              </picture>
+            </a>
+          </div>
+          <div class="fluenci-h1-left">
+            <h1>Main Takeaways</h1>
+          </div>
+          <p>We began by exploring the competition and quickly defining our product with a proto-persona. We developed user flows that help guide a series of rapid lo-fidelity wireframes and prototypes. We used these quick prototypes to conduct
+            initial user testing. We analyzed our results and determined ways to improve the product. We refined the UI, updated our prototype ,and completed a series of mockups.</p>
+        </div><!-- close row -->
+      </div><!-- close container -->
     </div>
   </main>
 
