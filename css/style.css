@@ -585,6 +585,10 @@ width: 100% !important;
   text-align: center;
 }
 
+.nonprofit-h1 {
+  color: #20afBf;
+}
+
 /* Resume page styling */
 #resume-header {
   display: inline-block;
@@ -939,5 +943,7 @@ Tertiary Color (Light Blue): #EFFAFF
 Tertiary Color (Light Green): #F5FFE3
 
 Colors for Nonprofit page:
-TBD
+Primary Color (red): #DB1B20
+Primary Color (bright blue): #20AFBF
+Secondary Color (cream): #F0EBE1
 */
