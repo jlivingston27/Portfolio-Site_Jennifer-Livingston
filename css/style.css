@@ -586,7 +586,11 @@ width: 100% !important;
 }
 
 .nonprofit-h1 {
-  color: #20afBf;
+  color: #20afbf;
+}
+
+.text-link-nonprofit {
+  color: #20afbf;
 }
 
 /* Resume page styling */
