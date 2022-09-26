@@ -593,6 +593,34 @@ width: 100% !important;
   color: #20afbf;
 }
 
+/* Homebase page styling */
+.row-homebase {
+  padding: 20px;
+}
+
+.row-homebase::before {
+  content: "";
+  background-color: #e9eff1;
+  position: absolute;
+  height: 60%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.homebase-h1 {
+  color: #2e8cab;
+}
+
+.homebase-h1-dark-green {
+  color: #1f5e73;
+}
+
+/* Calculators page styling */
+.calculators-h1 {
+  color: #7e2870;
+}
+
 /* Resume page styling */
 #resume-header {
   display: inline-block;
