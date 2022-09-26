@@ -603,6 +603,11 @@ width: 100% !important;
   color: #cf3e69;
 }
 
+/* BYSCO Welcom page styling */
+.bysco-h1 {
+  color: #2e8cab;
+}
+
 /* Resume page styling */
 #resume-header {
   display: inline-block;
