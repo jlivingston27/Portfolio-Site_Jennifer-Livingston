@@ -603,9 +603,14 @@ width: 100% !important;
   color: #cf3e69;
 }
 
-/* BYSCO Welcom page styling */
+/* BYSCO Welcome page styling */
 .bysco-h1 {
   color: #2e8cab;
+}
+
+/* Minis page styling */
+.minis-h1 {
+  color: #cf3e69;
 }
 
 /* Resume page styling */
@@ -786,7 +791,7 @@ Medium devices (640px and larger)
     padding-top: 10px;
   }
 
-  /* Abour page */
+  /* About page */
   .padding {
     padding-right: 20px;
   }
