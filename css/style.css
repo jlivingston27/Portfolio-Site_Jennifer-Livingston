@@ -90,6 +90,14 @@ a:focus {
   color: #0087e2;
 }
 
+.text-link-pink {
+  color: #cf3e69;
+}
+
+.text-link-blue{
+  color: #2e8cab;
+}
+
 /* Header/navigation Layout styling */
 header {
   display: inline-block;
@@ -598,13 +606,28 @@ width: 100% !important;
   color: #2e8cab;
 }
 
+.homebase-h3-blue {
+  text-align: center;
+  color: #2e8cab;
+}
+
 /* Calculators page styling */
 .calculators-h1 {
   color: #cf3e69;
 }
 
+.calculators-h3-pink {
+  text-align: center;
+  color: #cf3e69;
+}
+
 /* BYSCO Welcome page styling */
 .bysco-h1 {
+  color: #2e8cab;
+}
+
+.bysco-h3-blue {
+  text-align: center;
   color: #2e8cab;
 }
 
